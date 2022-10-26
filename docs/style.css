@@ -1,0 +1,175 @@
+body {
+   background-color: #161313;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*, html, body {
+    margin: 0px;
+}
+h1 {
+    font-size: 40px;
+    color: white;
+}
+h6 {
+    font-size: 16px;
+    color: white;
+}
+h3 {
+    color: white;
+}
+
+#ytterstboks {
+    width: 100%;   
+    height: 1250px;
+    display: flex;
+    flex-direction: column;
+}
+#infolinje {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+}
+#infofake {
+    height: 48px;
+    width: 100%;
+}
+.storbokser {
+    height: 48px;
+    width: 50%;
+    display: flex;
+}
+.logoboks {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.infobokser {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.infobokser a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+  }
+  .infobokser a:hover {
+    background-color: #f2eee8;
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+#logo {
+    height: 48px;
+}
+#joinus {
+    height: 312px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#getstarted {
+    width: 165px;
+    height: 62px;
+}
+
+#bildeside {
+    height: 527px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hovedbilde {
+    height: 90%;
+}
+
+#dropbox_apart {
+    height: 38px;
+    width: 100%;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#files {
+    height: 366px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.fil_boks {
+    width:435px;
+    height: 205px;
+}
+
+.luft_boks {
+    width: 198px;
+    height: 205px;
+}
+
+#get_started{
+    padding: 4px 4px;
+    height: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .infobokser{
+        display: none;
+    }
+    #files {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #hovedbilde {
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    #hovedbilde {
+        height: 60%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #hovedbilde {
+        height: 50%;
+    }
+}
+
+@media screen and (max-width:380px) {
+    #hovedbilde {
+        height: 40%;
+    }
+}
+
+#getstarted a:hover {
+    background-color: blue;
+
+}
+#get_started a:hover {
+    background-color: #0057e5;
+}
