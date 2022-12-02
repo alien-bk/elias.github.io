@@ -1,0 +1,100 @@
+body{
+    margin: 0px;
+    }
+    
+    #container_parent{
+        border: 1px black solid;
+        width: 100%;
+        height: 72em;
+    }
+    
+    
+    /* Header */
+    #header{
+        width: 100%;
+        height: 3.9%;
+        border: black 1px solid;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #logo_boks{
+        height: 100%;
+        width: 10%;
+        border: blue solid 1px;
+    }
+    
+    #logo_boks img{
+        height: 100%;
+        width: 100%;
+        object-fit:  contain;
+    }
+    
+    .boks{
+        height: 100%;
+        width: 10%;
+        border: black 1px solid;
+        word-wrap:break-word ;
+    }
+    
+    #hoyrefloat{
+        height: 100%;
+        width: 30%;
+    }
+    
+    .boks button{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    word-wrap:normal ;
+}
+
+/* main content */
+#content_parent{
+    width: 100%;
+    border: 1px black solid;
+    height: 78%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#smaller_parent{
+    width: 90%;
+    height: 90%;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+.ord-bilde_boks{
+    height: 100%;
+    width: 50%;
+    border: black 1px solid;
+    line-height: 40px;
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+}
+
+.ord-bilde_boks img{
+    width: 100%;
+    height: 50%;
+}
+
+.ord-bilde_boks p {
+    color: grey;
+    opacity: 70%;
+    font-size: 14px;
+}
+
+/* footer duh */
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: white;
+    justify-content: space-around;
+    height: 26%;
+}
