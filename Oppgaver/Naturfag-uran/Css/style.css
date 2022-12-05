@@ -1,0 +1,187 @@
+body{
+margin: 0px;
+}
+
+#container_parent{
+    border: 1px black solid;
+    width: 100%;
+    height: 70em;
+}
+
+
+/* Header */
+#header{
+    width: 100%;
+    height: 5%;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo_boks{
+    height: 100%;
+    width: 10%;
+    border: blue solid 1px;
+}
+
+#logo_boks img{
+    height: 100%;
+    width: 100%;
+    object-fit:  contain;
+}
+
+.boks{
+    height: 100%;
+    width: 10%;
+    border: black 1px solid;
+    word-wrap:break-word ;
+}
+
+#hoyrefloat{
+    height: 100%;
+    width: 30%;
+}
+
+
+.boks button{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    word-wrap:break-word ;
+}
+
+/* Main content */
+
+#content_container{
+    border: solid black 1px;
+    height: 76.5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main_content{
+    border: black 1px solid;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+#tekst_container{
+    border: solid black 1px;
+    width: 100%;
+    height: 20%;
+}
+
+#bilde_container{
+    border: solid black 1px;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bildet{
+    border: black solid 1px;
+    width: 60%;
+    height: 100%;
+}
+
+#button_container{
+    border: 1px black solid;
+    height:10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#but-but_cont{
+    height: 100%;
+    width: 40%;
+}
+
+#uran_button{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+/* footer duh */
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: white;
+    justify-content: space-around;
+    height: 26%;
+}
+
+/* media screens */
+@media screen and (max-width:700px){
+    #hoyrefloat {
+        display: none;
+    }
+
+    #header{
+        justify-content: space-evenly;
+    }
+
+    #footer{
+        height: 30%;
+    }
+
+    #logo_boks{
+        display: none;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #footer{
+        height: 50%;
+    }
+
+    #container_parent{
+        height: 63em;
+    }
+}
+
+#boks a{
+    word-wrap:break-word ;
+}
+
+@media screen and (max-width:435px){
+    #ov{
+        font-size: large;
+    }
+}
+
+
+.pang {
+    width: 20px;
+    height: 20px;
+    background: green;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(127, 153, 127),
+                0 0 40px rgb(127, 153, 127), 
+                0 0 60px rgb(127, 153, 127), 
+                0 0 80px rgb(127, 153, 127), 
+                0 0 120px rgb(127, 153, 127),
+                0 0 220px rgb(127, 153, 127),
+                0 0 320px rgb(127, 153, 127);
+    transition: 12s;
+}
+  
+.pang:hover {
+    box-shadow: 0 0 0 30px rgb(83, 224, 83), 
+                0 0 0 60px rgb(63, 235, 63),
+                0 0 0 100px rgb(63, 235, 63),
+                0 0 0 120px rgb(63, 235, 63), 
+                0 0 0 200px rgb(63, 235, 63),
+                0 0 0 400px rgb(63, 235, 63), 
+                0 0 0 2000px rgb(63, 235, 63);
+}

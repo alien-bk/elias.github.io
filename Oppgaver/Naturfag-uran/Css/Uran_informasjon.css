@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    }
+    
+    #container_parent{
+        border: 1px black solid;
+        width: 100%;
+        height: 72em;
+    }
+    
+    
+    /* Header */
+    #header{
+        width: 100%;
+        height: 3.9%;
+        border: black 1px solid;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #logo_boks{
+        height: 100%;
+        width: 10%;
+        border: blue solid 1px;
+    }
+    
+    #logo_boks img{
+        height: 100%;
+        width: 100%;
+        object-fit:  contain;
+    }
+    
+    .boks{
+        height: 100%;
+        width: 10%;
+        border: black 1px solid;
+        word-wrap:break-word ;
+    }
+    
+    #hoyrefloat{
+        height: 100%;
+        width: 30%;
+    }
+    
+    .boks button{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    word-wrap:normal ;
+}
+
+/* content */
+#content_container{
+    width: 100%;
+}
+
+iframe{
+    width: 100%;
+    height: 94.5%;
+}
+
+/* footer duh */
+#footer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    color: white;
+    justify-content: space-around;
+    height: 100%;
+}
+
+/* media screens */
+@media screen and (max-width:700px){
+    #hoyrefloat {
+        display: none;
+    }
+
+    #header{
+        justify-content: space-evenly;
+    }
+
+    #footer{
+        height: 30%;
+    }
+
+    #logo_boks{
+        display: none;
+    }
+
+    .boks{
+        width: 20%;
+    }
+}
+
+@media screen and (max-width:390px) {
+    #boks a{
+        word-wrap:break-word;
+    }    
+}
+
+@media screen and (max-width:1020px) {
+    #header text{
+        font-size: 16px;
+    }    
+}
