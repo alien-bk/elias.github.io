@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github forside</title>
+    <style>body{
+        margin: 0px;
+        background-image:url("bakgrund.gif")
+        /* image: https://th.bing.com/th/id/R.29534f37f545b9cfc04d5727f4a3ecbd?rik=c3zdfGNzGvCngQ&riu=http%3a%2f%2fi.stack.imgur.com%2fV3plu.gif&ehk=sXaIo7ToDGIprjIqjuUEY6On%2bM%2bRMxLf%2fZir6%2b0Iopw%3d&risl=&pid=ImgRaw&r=0 */
+    }
+    
+    #container_grandparent{
+        width: 100%;
+        height: 46em;
+        /* border: black 1px solid; */
+    }
+    
+    .link-tekst_boks{
+        width: 50%;
+        border: red 1px solid;
+        height: 15em;
+        display: flex;
+        flex-direction: column;
+        background-color: burlywood;
+    }
+    
+    .link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+    }
+    
+    .link button{
+        height: 20%;
+        width: 10%;
+        background-color: yellow;
+        margin: 0px;
+        border: 0px;
+    }
+    
+    .tekst{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50%;
+        width: 100%;
+        text-align: center;
+    }</style>
+</head>
+<body>
+    <!-- 
+        TEMPLATE
+
+        <div class="link-tekst_boks">
+        <div class="link">
+            <button><a href="" target="_blank"></a></button>
+        </div>
+        <div class="tekst">
+            <p></p>
+        </div>
+    </div> -->
+    <div id="container_grandparent">
+        <div class="link-tekst_boks">
+            <div class="link">
+              <button><a href="" target="_blank">Dropbox</a></button>
+            </div>
+            <div class="tekst"> 
+                <p>I denne oppgaven skulle vi etterligne. <a href="https://www.dropbox.com/" target="_blank">Dropbox.com</a></p>
+            </div>
+        </div>
+        <div class="link-tekst_boks">
+            <div class="link">
+                <button><a href="" target="_blank">Uran kos</a></button>
+            </div>
+            <div class="tekst">
+                <p>I denne oppgaven skulle vi lage et livsstils nettside i tverrfaglig med naturfag.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
